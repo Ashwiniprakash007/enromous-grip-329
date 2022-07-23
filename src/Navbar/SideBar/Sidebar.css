@@ -1,0 +1,123 @@
+.bg-black{
+    background-color: rgb(33, 32, 32);
+}
+.color-white{
+    color: white;
+}
+.sidebar-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.true{
+    display: block;
+    
+}
+.false{
+    display: none;
+}
+
+
+
+.side-sign-in-div{
+    height: 170px;
+    background-color: rgb(3, 3, 3);
+    color: white;
+    z-index: 1;
+    width: 100%;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: absolute;
+}
+.sign-in-box-1{
+    border-right: 0.5px solid silver;
+}
+/* hedaing (heda is a gali in our lang i know spelling) */
+.heading-lists{
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(121, 121, 121, 0.804);
+}
+
+
+
+
+.side-product-div{
+    height: 250px;
+    background-color: rgb(3, 3, 3);
+    color: white;
+    z-index: 1;
+    padding: 20px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
+    position: absolute;
+    z-index: 1;
+}
+.product-box > div{
+    padding: 10px;
+}
+.upper-products > img{
+    height: 25px;
+}
+.li-resources{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+}
+.li-resources > li{
+  
+    padding: 5px;
+}
+.p-div-1{
+    border-right: 0.5px solid silver;
+}
+.p-div-up{
+    border-top: 0.5px solid silver;;
+}
+
+/* hedaing (heda is a gali in our lang i know spelling) */
+.side-heading-lists{
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(121, 121, 121, 0.804);
+}
+
+.side-platform-container>ul{
+    list-style: none;
+    padding: 10px;
+    
+}
+.side-platform-container > ul > h3{
+    text-align: center;
+    font-weight: 40px;
+}
+.side-platform-container > ul > li{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 16px;
+    border-top: 0.1px solid silver;
+   
+}
+.side-box{
+    border: 0.3px solid silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    background-color: rgba(32, 32, 32, 0.799);
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .display-hidden{
+        display: none;
+    }
+}

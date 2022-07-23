@@ -1,0 +1,96 @@
+.perfumes-dropdown {
+  height: 380px;
+  background-color: rgb(3, 3, 3);
+  display: flex;
+  color: white;
+  z-index: 1;
+  width: 80%;
+  margin: auto;
+  padding: 20px 40px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 10%;
+}
+.div-1 {
+  font-weight: bolder;
+  font-size: large;
+  width: 26%;
+  text-align: left;
+  border-right: 1px solid white;
+}
+.div-2 {
+  width: 74%;
+}
+.up-nav {
+  height: 80%;
+
+  display: flex;
+}
+.up-nav-list {
+  font-weight: bolder;
+  font-size: large;
+  width: 26%;
+  height: 100%;
+  text-align: left;
+}
+.up-nav-list ul li {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  margin-left: 30px;
+  list-style: none;
+}
+
+.row-div {
+  width: 74%;
+}
+.row-div h3 {
+  text-align: left;
+  padding: 7px 20px;
+}
+.hedarput {
+  margin-left: 20px;
+}
+.up-nav-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 8px;
+  height: 80%;
+}
+.box {
+  border: 2px solid rgb(5, 5, 5);
+  display: flex;
+  align-items: center;
+  border-radius: 9px;
+  background-color: rgba(32, 32, 32, 0.799);
+}
+.down-nav {
+  height: 20%;
+}
+
+.div-1 > ul > li {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  transition: all 0.3s ease;
+  list-style: none;
+  font-size: medium;
+}
+
+.true {
+  display: block;
+}
+.false {
+  display: none;
+}
+
+/* hedaing (heda is a gali in our lang i know spelling) */
+.heading-lists {
+  font-size: 13px;
+  font-weight: 100px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgba(121, 121, 121, 0.804);
+}

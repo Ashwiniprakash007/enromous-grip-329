@@ -1,0 +1,40 @@
+
+.search-container{
+    background-color: black;height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+.search-in-div{
+width: 50%;
+height: 70%;
+    
+}
+.search-in-div > input{
+    height: 100%;
+    background-color: black;
+    width: 100%;
+    font-size: larger;
+    font-weight: bolder;
+    border-bottom: 0.4px solid silver;
+    color: white;
+    padding: 20px;
+}
+.search-in-div > input ::placeholder{
+    color:white
+}
+.back-button{
+    height: 20px;
+    width: 20px;
+}
+
+
+.true{
+    display: block;
+    
+}
+.false{
+    display: none;
+}

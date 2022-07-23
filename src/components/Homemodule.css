@@ -1,249 +1,241 @@
-.main-box{
-    height:820px;
-    width: 100%;
-    border: 1px solid black;
-    background-color: black;
-    background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/hero-illustration.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
+.main-box {
+  height: 820px;
+  width: 100%;
+  border: 1px solid black;
+  background-color: black;
+  background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/hero-illustration.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-.main-head{
-    color: #FFFFFF;
-    margin-top: 180px;
-    
+.main-head {
+  color: #ffffff;
+  margin-top: 180px;
 }
-.btn-grp{
-    margin-top: 35px;
-    gap: 30px;
-    
+.btn-grp {
+  margin-top: 35px;
+  gap: 30px;
 }
-.flex-box-1{
-    height:50px;
-    width:100px;
-    background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/adp.png");
-    background-repeat: no-repeat;
-    background-color: black;
-    
+.flex-box-1 {
+  height: 50px;
+  width: 100px;
+  background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/adp.png");
+  background-repeat: no-repeat;
+  background-color: black;
 }
-.flex-box-2{
-    height:50px;
-    width:100px;
-    background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/adobe.png");
-    background-repeat: no-repeat;
-    background-color: black;
+.flex-box-2 {
+  height: 50px;
+  width: 100px;
+  background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/adobe.png");
+  background-repeat: no-repeat;
+  background-color: black;
 }
-.flex-box-3{
-    height:50px;
-    width:100px;
-    background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/vmware.png");
-    background-repeat: no-repeat;
-    background-color: black;
+.flex-box-3 {
+  height: 50px;
+  width: 100px;
+  background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/vmware.png");
+  background-repeat: no-repeat;
+  background-color: black;
 }
-.flex-box-4{
-    height:50px;
-    width:100px;
-    background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/fujitsu.png");
-    background-repeat: no-repeat;
-    background-color: black;
+.flex-box-4 {
+  height: 50px;
+  width: 100px;
+  background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/fujitsu.png");
+  background-repeat: no-repeat;
+  background-color: black;
 }
-.flex-box-5{
-    height:50px;
-    width:100px;
-    background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/nasdaq.png");
-    background-repeat: no-repeat;
-    background-color: black;
+.flex-box-5 {
+  height: 50px;
+  width: 100px;
+  background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/nasdaq.png");
+  background-repeat: no-repeat;
+  background-color: black;
 }
 
-.big-line{
-    
-    background-color: #000;
-    margin: 0px auto;
-    width: 0%;
-    height: 150px;
-    border-width: 3px;
-    border-style: solid;
-    border-image: linear-gradient( to bottom, #EC008C, #F15B2A, rgba(0, 0, 0, 0) ) 1 100%;
-    margin-top: 40px;
+.big-line {
+  background-color: #000;
+  margin: 0px auto;
+  width: 0%;
+  height: 150px;
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #ec008c, #f15b2a, rgba(0, 0, 0, 0)) 1
+    100%;
+  margin-top: 40px;
 }
 
-.triangle-1{
-    height:610px;
-    width:100%;
-    background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/bkgd-triangle-left.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    color: #EEEEEE;
-    background-color: #000000;
-    margin-top: -20px;
+.triangle-1 {
+  height: 610px;
+  width: 100%;
+  background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/bkgd-triangle-left.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #eeeeee;
+  background-color: #000000;
+  margin-top: -20px;
 }
 
-.triangle-2{
-    height:610px;
-    width:100%;
-    background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/bkgd-triangle-right2.png");
-    background-repeat: no-repeat;
-    background-size: 100%;  
-    color: #EEEEEE;
-    background-color: #000000;
-    margin-top: -20px;
+.triangle-2 {
+  height: 610px;
+  width: 100%;
+  background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/bkgd-triangle-right2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #eeeeee;
+  background-color: #000000;
+  margin-top: -20px;
 }
 
-.main-box-2{
-    height:1790px;
-    width: 100%;
-    background-color: #222222;
+.main-box-2 {
+  height: 1790px;
+  width: 100%;
+  background-color: #222222;
 }
 
-.b-b-1{
-    height:405px;
-    width: 91%;
-    justify-content: center;
-    margin: auto;
-    margin-left: 5%;
-    /* border: 1px solid red; */
-    margin-top: 340px;
-    border-radius: 15px;
-    background-color: #323131;
+.b-b-1 {
+  height: 405px;
+  width: 91%;
+  justify-content: center;
+  margin: auto;
+  margin-left: 5%;
+  /* border: 1px solid red; */
+  margin-top: 340px;
+  border-radius: 15px;
+  background-color: #323131;
 }
-.b-b-2{
-    height: 404px;
-    width:50%;
-    
+.b-b-2 {
+  height: 404px;
+  width: 50%;
 }
-.b-b-3{
-    height: 404px;
-    width:50%;
-    
-   
+.b-b-3 {
+  height: 404px;
+  width: 50%;
 }
-.skills{
-    height:50px;
-    width:100px;
-    background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/product/v2/logos/logo-skills.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin-top: 60px;
-    margin-left: 35px;
-    
+.skills {
+  height: 50px;
+  width: 100px;
+  background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/product/v2/logos/logo-skills.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 60px;
+  margin-left: 35px;
 }
-.b-bb-1{
-    height:405px;
-    width: 91%;
-    justify-content: center;
-    margin: auto;
-    margin-left: 5%;
-    /* margin-top: -60%; */
-    /* border: 1px solid red; */
-    margin-top: 340px;
-    border-radius: 15px;
-    background-color: #323131;
+.b-bb-1 {
+  height: 405px;
+  width: 91%;
+  justify-content: center;
+  margin: auto;
+  margin-left: 5%;
+  /* margin-top: -60%; */
+  /* border: 1px solid red; */
+  margin-top: 340px;
+  border-radius: 15px;
+  background-color: #323131;
 }
 
-.b-bb-2{
-    height: 404px;
-    width:50%;
-    
+.b-bb-2 {
+  height: 404px;
+  width: 50%;
 }
-.b-bb-3{
-    height: 404px;
-    width:50%;
-    
-   
+.b-bb-3 {
+  height: 404px;
+  width: 50%;
 }
-.flow{
-    height:50px;
-    width:100px;
-    background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/abm-assets/abm-template/abm-flow-logo.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin-top: 60px;
-    margin-left: 35px;
-    
+.flow {
+  height: 50px;
+  width: 100px;
+  background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/abm-assets/abm-template/abm-flow-logo.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 60px;
+  margin-left: 35px;
 }
-.certifiacte{
-    height:100px;
-    width:270px;
-    margin-left: 40px;
-    /* font-weight: 50px; */
-    margin-top: 50px;
-    background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/homepage/certification-prep.png");
-    background-repeat: no-repeat;
-    background-size: 100%
+.certifiacte {
+  height: 100px;
+  width: 270px;
+  margin-left: 40px;
+  /* font-weight: 50px; */
+  margin-top: 50px;
+  background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/homepage/certification-prep.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
-.delivery{
-    height:100px;
-    width:270px;
-    margin-left: 40px;
-    /* font-weight: 50px; */
-    margin-top: 50px;
-    background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/homepage/delivery-module.png");
-    background-repeat: no-repeat;
-    background-size: 100%
+.delivery {
+  height: 100px;
+  width: 270px;
+  margin-left: 40px;
+  /* font-weight: 50px; */
+  margin-top: 50px;
+  background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/homepage/delivery-module.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
-.sandbox{
-    height:100px;
-    width:270px;
-    margin-left: 40px;
-    /* font-weight: 50px; */
-    margin-top: 50px;
-    background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/homepage/sandboxes.png");
-    background-repeat: no-repeat;
-    background-size: 100%
+.sandbox {
+  height: 100px;
+  width: 270px;
+  margin-left: 40px;
+  /* font-weight: 50px; */
+  margin-top: 50px;
+  background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/homepage/sandboxes.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-
-.main-box-3{
-    height:650px;
-    width:100%;
-    background-color: #000000;
+.main-box-3 {
+  height: 650px;
+  width: 100%;
+  background-color: #000000;
 }
 
-.main-box-4{
-    height:550px;
-    width:100%;
-    /* border: 7px solid red; */
+.main-box-4 {
+  height: 550px;
+  width: 100%;
+  /* border: 7px solid red; */
 }
-.laptop-img{
-    height:550px;
-    width:57%;
-    
+.laptop-img {
+  height: 550px;
+  width: 57%;
 }
-.satrangi{
-    
-    height:550px;
-    width:43%;
-    background: linear-gradient(100.37deg, rgb(236, 0, 139) 0%, rgb(241, 90, 34) 100%);
-    background-image: linear-gradient(100.37deg, rgb(236, 0, 139) 0%, rgb(241, 90, 34) 100%);
-    
-    background-size: 100%;
-    
+.satrangi {
+  height: 550px;
+  width: 43%;
+  background: linear-gradient(
+    100.37deg,
+    rgb(236, 0, 139) 0%,
+    rgb(241, 90, 34) 100%
+  );
+  background-image: linear-gradient(
+    100.37deg,
+    rgb(236, 0, 139) 0%,
+    rgb(241, 90, 34) 100%
+  );
+
+  background-size: 100%;
 }
-.main-box-5{
-    height:670px;
-    width:100%;
-    background-color: #000000;
+.main-box-5 {
+  height: 670px;
+  width: 100%;
+  background-color: #000000;
 }
-.main-box-6{
-    height:600px;
-    width:100%;
-    background-image: url("https://www.pluralsight.com/content/pluralsight/en/jcr:content/main/generic_block_1609496607/image-res.img.8377a1d0-97d6-4d21-b150-b57af534a17c.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%
+.main-box-6 {
+  height: 600px;
+  width: 100%;
+  background-image: url("https://www.pluralsight.com/content/pluralsight/en/jcr:content/main/generic_block_1609496607/image-res.img.8377a1d0-97d6-4d21-b150-b57af534a17c.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
-.twter{
-    height:18px;
-    width:18px;
-    margin-top: 20px;
-    margin-left: -60%;
-   
+.twter {
+  height: 18px;
+  width: 18px;
+  margin-top: 20px;
+  margin-left: -60%;
 }
-span{
-    color:rgb(236, 0, 139);
+span {
+  color: rgb(236, 0, 139);
 }
 
-.main-box-7{
-    height:230px;
-    width:100%;
-    background-color: #222222;
+.main-box-7 {
+  height: 230px;
+  width: 100%;
+  background-color: #222222;
 }

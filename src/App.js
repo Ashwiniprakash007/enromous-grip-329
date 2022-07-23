@@ -1,13 +1,10 @@
-
-import './App.css';
-import HomePage from './components/HomePage';
-import MainRoutes from './Pages/MainRoutes';
+import "./App.css";
+import MainRoutes from "./MainRoutes";
 
 function App() {
   return (
     <div className="App">
-    {/* <MainRoutes/> */}
-    <HomePage/>
+      <MainRoutes />
     </div>
   );
 }

@@ -12,7 +12,6 @@ import {
   Heading,
   Text,
   Link,
-  Textarea,
   useToast,
 } from "@chakra-ui/react";
 import { useReducer, useState } from "react";
