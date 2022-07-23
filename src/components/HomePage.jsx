@@ -29,7 +29,7 @@ const HomePage = () => {
 
   useEffect(() => {
     let i = 0;
-    let id = setInterval(() => {
+    setInterval(() => {
       setSkills(data[i]);
       i++;
       if (i === data.length) {
@@ -456,7 +456,7 @@ const HomePage = () => {
                     marginTop={"25px"}
                     textAlign="left"
                   >
-                    Learn more <span> > </span>{" "}
+                    Learn more <span> {`>`} </span>{" "}
                   </Heading>
                 </Flex>
               </Box>
@@ -519,7 +519,7 @@ const HomePage = () => {
                     marginLeft="5%"
                     marginTop={"25px"}
                   >
-                    Learn more <span> > </span>{" "}
+                    Learn more <span> {`>`} </span>{" "}
                   </Heading>
                 </Flex>
               </Box>
@@ -583,7 +583,7 @@ const HomePage = () => {
                   marginTop={"25px"}
                 >
                   {" "}
-                  Learn more <span> > </span>{" "}
+                  Learn more <span> {`>`} </span>{" "}
                 </Heading>
               </Flex>
             </Box>
@@ -634,7 +634,7 @@ const HomePage = () => {
                   marginLeft="8%"
                   marginTop={"25px"}
                 >
-                  Learn more <span> > </span>{" "}
+                  Learn more <span> {`>`} </span>{" "}
                 </Heading>
               </Flex>
             </Box>
@@ -683,7 +683,7 @@ const HomePage = () => {
                   marginLeft="8%"
                   marginTop={"25px"}
                 >
-                  Learn more <span> > </span>{" "}
+                  Learn more <span> {`>`} </span>{" "}
                 </Heading>
               </Flex>
             </Box>
