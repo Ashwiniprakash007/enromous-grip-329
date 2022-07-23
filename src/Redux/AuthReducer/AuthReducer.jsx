@@ -3,6 +3,7 @@ import {
   LOGIN_FAILURE,
   LOGIN_LOADING,
   LOGIN_SUCCESS,
+  LOGOUT,
   SIGNUP_FAILURE,
   SIGNUP_LOADING,
   SIGNUP_SUCCESS,
@@ -38,6 +39,7 @@ export const AuthReducer = (state = initialState, action) => {
         ...state,
         isLoading: false,
         isError: true,
+        isAuth: false,
       };
     }
     case SIGNUP_LOADING: {
@@ -57,6 +59,13 @@ export const AuthReducer = (state = initialState, action) => {
         ...state,
         isLoading: false,
         isError: true,
+      };
+    }
+    case LOGOUT: {
+      localStorage.removeItem("token");
+      return {
+        ...state,
+        isAuth: false,
       };
     }
     default: {

@@ -33,7 +33,7 @@ export const Login = () => {
       };
       dispatch(login(params)).then((r) => {
         console.log(r);
-        if (token) {
+        if ("login/success") {
           toast({
             title: "Login Successfull",
             status: "success",
@@ -63,7 +63,7 @@ export const Login = () => {
     }
   };
   return (
-    <Flex className="container" h="100vh">
+    <Flex className="container" h="100vh" bg="#0d0f12">
       <Box
         bg="#0D0F12"
         // h="100vh"
@@ -71,11 +71,11 @@ export const Login = () => {
         textAlign="center"
       >
         {/* Logo */}
-        <Image src={logo} w="50%" m="auto" />
+        <Image src={logo} w="50%" m="auto" mt="0" />
 
         {/* Email and password Inputs */}
         <FormControl w="85%" m="auto" mt={"0"}>
-          <FormLabel color="white" fontSize="1.8ch" mt="10px" mb={"0"}>
+          <FormLabel color="white" fontSize="2.5ch" mt="10px" mb={"0"}>
             Email or Username
           </FormLabel>
           <Input
@@ -83,14 +83,14 @@ export const Login = () => {
             mb="3ch"
             color="grey"
             size="sm"
-            h="5ch"
+            h="7ch"
             w="100%"
             m={"auto"}
             mt="5px"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
-          <FormLabel color="white" fontSize="1.8ch" mt="15px" mb={"0"}>
+          <FormLabel color="white" fontSize="2.5ch" mt="25px" mb={"0"}>
             Password
           </FormLabel>
           <Input
@@ -98,7 +98,7 @@ export const Login = () => {
             mb="3ch"
             color="grey"
             size="sm"
-            h="5ch"
+            h="7ch"
             w="100%"
             mt="5px"
             value={password}
@@ -122,7 +122,7 @@ export const Login = () => {
         <br />
 
         {/* attributes */}
-        <a href="/#" style={{ color: "#1A92D6", fontSize: "15px" }}>
+        <a href="/#" style={{ color: "#1A92D6", fontSize: "20px" }}>
           Forget Password?
         </a>
         <br />
@@ -149,6 +149,9 @@ export const Login = () => {
           w="85%"
           mb="3ch"
           h="5ch"
+          onClick={() => {
+            navigate("/pricing");
+          }}
         >
           Create an account
         </Button>
