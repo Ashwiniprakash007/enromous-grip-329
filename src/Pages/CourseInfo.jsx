@@ -71,7 +71,7 @@ const CourseInfo = () => {
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
               <i class="fa fa-star-half"></i>
-              <span style={{marginLeft:"5px",color:"white"}}>(504)</span>
+              <span style={{ml:"5px",color:"white"}}>(504)</span>
             </span>
           </Flex>
           <Flex p={"20px"} justifyContent={"space-between"}>
