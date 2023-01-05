@@ -63,7 +63,7 @@ export const Login = () => {
     }
   };
   return (
-    <Flex className="container" h="100vh" bg="#0d0f12">
+    <Flex className="container" height="100vh" bg="#0d0f12">
       <Box
         bg="#0D0F12"
         // h="100vh"
