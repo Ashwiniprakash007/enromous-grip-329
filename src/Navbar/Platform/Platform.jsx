@@ -67,7 +67,7 @@ export const Platform = ({ value }) => {
                 <div className="box">
                   <img
                     src="https://pluralsight2.imgix.net/paths/images/aws-certified-devops-engineer-25d912e3da.png?w=75"
-                    alt=""
+                    alt="certified-devops-engineer image"
                   />
                   <div>
                     <p>AWS Operations</p>
