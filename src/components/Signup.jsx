@@ -17,7 +17,6 @@ import {
 import { useReducer, useState } from "react";
 import { ViewIcon, ViewOffIcon } from "@chakra-ui/icons";
 import { useDispatch, useSelector } from "react-redux";
-// import logo from "./Login/Logo.png";
 import { signUp } from "../Redux/AuthReducer/action";
 import { useNavigate } from "react-router-dom";
 
